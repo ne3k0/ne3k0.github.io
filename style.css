@@ -9,7 +9,7 @@ body {
   font-size: 14px;
   line-height: 1.6;
   color: #000;
-  background: #fff;
+  background: #F8F8F4;
 }
 
 /* ── Two-column page layout ── */
@@ -103,11 +103,20 @@ footer {
   }
 
   .left-col {
-    flex-direction: row;
     flex: unset;
+    width: 100%;
+    min-height: 400px;
   }
 
-  .left-col img {
-    width: 100px;
+  .img-ccu {
+    width: 150px;
+    top: 0px;
+    left: 0px;
+  }
+
+  .img-idmt {
+    width: 252px;
+    top: 260px;
+    left: 18px;
   }
 }
